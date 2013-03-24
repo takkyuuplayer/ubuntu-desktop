@@ -5,6 +5,5 @@ Ubuntu as a Desktop
 
     $ cd /var/chef
     $ bundle install --path vendor/bundle
-    $ bundle exec knife solo init .
     $ bundle exec berks --path cookbooks/
     $ sudo bundle exec chef-solo
