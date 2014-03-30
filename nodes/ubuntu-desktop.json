@@ -4,6 +4,6 @@
         "recipe[zsh]",
         "recipe[tmux]",
         "recipe[git]",
-        "recipe[java]"
+        "recipe[google-chrome]"
     ]
 }
