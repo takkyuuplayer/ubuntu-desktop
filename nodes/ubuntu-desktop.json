@@ -1,0 +1,9 @@
+{
+    "run_list":[
+        "recipe[vim]",
+        "recipe[zsh]",
+        "recipe[tmux]",
+        "recipe[git]",
+        "recipe[java]"
+    ]
+}

@@ -1,7 +1,5 @@
 site :opscode
-cookbook 'yum'
-cookbook 'nodejs'
 cookbook 'vim'
+cookbook 'git'
 cookbook 'zsh'
-cookbook 'screen'
-cookbook 'java'
+cookbook 'tmux'
