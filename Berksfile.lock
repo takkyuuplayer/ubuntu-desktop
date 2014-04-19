@@ -15,6 +15,9 @@
     "google-chrome": {
       "locked_version": "0.0.1"
     },
+    "nginx": {
+      "locked_version": "2.6.2"
+    },
     "dmg": {
       "locked_version": "2.2.0"
     },
@@ -38,6 +41,15 @@
     },
     "apt": {
       "locked_version": "2.3.8"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.12.2"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
     }
   }
 }
