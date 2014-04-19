@@ -5,7 +5,8 @@
     },
     "run_list":[
         "recipe[nginx::repo]",
-        "recipe[webapp]"
+        "recipe[webapp]",
+        "recipe[webapp::sandbox]"
     ]
 }
 

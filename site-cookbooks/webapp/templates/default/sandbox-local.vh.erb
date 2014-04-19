@@ -1,0 +1,12 @@
+server {
+    listen       80;
+    server_name <%= @subdomain %>.takkyuuplayer.localhost;
+    index       index.html index.htm;
+    root        <%= @document_root %>;
+    autoindex on;
+    charset     utf-8;
+    access_log  /var/log/nginx/vh/<%= @subdomain %>-access.local.log;
+    error_log   /var/log/nginx/vh/<%= @subdomain %>-error.local.log;
+
+}
+
