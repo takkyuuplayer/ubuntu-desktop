@@ -1,0 +1,12 @@
+{
+    "account": {
+        "user": "takkyuuplayer",
+        "group": "takkyuuplayer"
+    },
+    "run_list":[
+        "recipe[nginx::repo]",
+        "recipe[webapp]",
+        "recipe[webapp::sandbox]"
+    ]
+}
+
