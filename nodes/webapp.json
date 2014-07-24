@@ -2,9 +2,14 @@
     "account": {
         "user": "takkyuuplayer",
         "group": "takkyuuplayer"
-    },
-    "run_list":[
+    }
+    ,"sandbox": {
+        "subdomain": "sandbox"
+    }
+    ,"run_list":[
         "recipe[nginx::repo]",
+        "recipe[php]",
+        "recipe[php-fpm]",
         "recipe[webapp]",
         "recipe[webapp::sandbox]"
     ]
