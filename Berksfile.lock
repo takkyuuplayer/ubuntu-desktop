@@ -1,70 +1,68 @@
-{
-  "sources": {
-    "vim": {
-      "locked_version": "1.1.2"
-    },
-    "git": {
-      "locked_version": "4.0.0"
-    },
-    "zsh": {
-      "locked_version": "1.0.0"
-    },
-    "tmux": {
-      "locked_version": "1.4.0"
-    },
-    "google-chrome": {
-      "locked_version": "0.0.1"
-    },
-    "nginx": {
-      "locked_version": "2.6.2"
-    },
-    "php": {
-      "locked_version": "1.4.6"
-    },
-    "php-fpm": {
-      "locked_version": "0.6.4"
-    },
-    "mysql": {
-      "locked_version": "5.1.8"
-    },
-    "dmg": {
-      "locked_version": "2.2.0"
-    },
-    "build-essential": {
-      "locked_version": "2.0.4"
-    },
-    "windows": {
-      "locked_version": "1.31.0"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.6"
-    },
-    "runit": {
-      "locked_version": "1.5.10"
-    },
-    "yum": {
-      "locked_version": "3.2.0"
-    },
-    "yum-epel": {
-      "locked_version": "0.3.6"
-    },
-    "apt": {
-      "locked_version": "2.4.0"
-    },
-    "bluepill": {
-      "locked_version": "2.3.1"
-    },
-    "rsyslog": {
-      "locked_version": "1.12.2"
-    },
-    "ohai": {
-      "locked_version": "1.1.12"
-    },
-    "xml": {
-      "locked_version": "1.2.4"
-    },
-    "iis": {
-      "locked_version": "2.1.0"
-    }
-  }
-}
+DEPENDENCIES
+  git
+  google-chrome
+  mysql
+  nginx
+  php
+  php-fpm
+  tmux
+  vim
+  zsh
+
+GRAPH
+  apt (2.5.3)
+  bluepill (2.3.1)
+    rsyslog (>= 0.0.0)
+  build-essential (2.0.6)
+  chef-sugar (2.2.0)
+  chef_handler (1.1.6)
+  dmg (2.2.0)
+  git (4.0.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  google-chrome (0.0.1)
+    apt (>= 0.0.0)
+  iis (2.1.2)
+    windows (>= 1.2.6)
+  mysql (5.5.1)
+    yum-mysql-community (>= 0.0.0)
+  nginx (2.7.4)
+    apt (~> 2.2)
+    bluepill (~> 2.3)
+    build-essential (~> 2.0)
+    ohai (~> 2.0)
+    runit (~> 1.2)
+    yum-epel (~> 0.3)
+  ohai (2.0.1)
+  php (1.4.6)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 0.0.0)
+    windows (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  php-fpm (0.6.10)
+    apt (>= 0.0.0)
+    yum (>= 3.0.0)
+  rsyslog (1.12.2)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  tmux (1.4.0)
+  vim (1.1.2)
+  windows (1.34.2)
+    chef_handler (>= 0.0.0)
+  xml (1.2.6)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+  yum (3.3.0)
+  yum-epel (0.5.1)
+    yum (~> 3.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)
+  zsh (1.0.0)
