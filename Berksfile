@@ -1,4 +1,5 @@
-site :opscode
+source "https://supermarket.getchef.com"
+
 cookbook 'vim'
 cookbook 'git'
 cookbook 'zsh'
