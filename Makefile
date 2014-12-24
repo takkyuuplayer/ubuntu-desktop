@@ -1,6 +1,9 @@
+VERSION=chefdk_0.3.5-1_amd64.deb
+
 chef-dk:
-	wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_0.2.1-1_amd64.deb
-	sudo dpkg -i chefdk_0.2.1-1_amd64.deb
+	wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/${VERSION}
+	sudo dpkg -i ${VERSION}
+	rm ${VERSION}
 
 default:
 	rm -rf cookbooks
